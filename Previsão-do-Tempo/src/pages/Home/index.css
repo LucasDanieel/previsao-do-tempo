@@ -1,0 +1,92 @@
+@import url("https://fonts.googleapis.com/css2?family=Maven+Pro:wght@400;500;600&display=swap");
+
+:root {
+  --background-box: rgb(53, 108, 118);
+}
+
+.container {
+  display: flex;
+  width: 100%;
+  height: 100vh;
+  background-color: rgb(24, 168, 166);
+  align-items: center;
+  justify-content: center;
+  font-family: "Maven Pro", sans-serif;
+}
+
+.box-weather {
+  position: absolute;
+  display: flex;
+  width: 25%;
+  height: 85%;
+  flex-direction: column;
+  border-radius: 20px;
+  color: rgb(234, 246, 248);
+  background-color: var(--background-box);
+  font-family: "Maven Pro", sans-serif;
+  transition: 1000ms;
+  user-select: none;
+  z-index: 6;
+}
+
+.animation-weather {
+  margin-right: 27%;
+}
+
+.box-week {
+  z-index: 1;
+  background-color: rgb(40, 48, 62);
+}
+
+.animation-week {
+  margin-left: 27%;
+}
+
+@media (max-width: 1400px) {
+  .box-weather {
+    width: 35%;
+  }
+
+  .animation-weather {
+    margin-right: 37%;
+  }
+
+  .animation-week {
+    margin-left: 37%;
+  }
+}
+
+@media (max-width: 1000px) {
+  .box-weather {
+    width: 55%;
+  }
+
+  .animation-weather {
+    display: none;
+  }
+
+  .animation-week {
+    margin-left: 0%;
+  }
+}
+
+@media (max-width: 414px) {
+  .box-weather {
+    border-radius: 0px;
+    height: 100%;
+    width: 100%;
+  }
+
+  .img img {
+    width: 240px;
+    height: 240px;
+  }
+
+  .temperatura h3 {
+    font-size: 55px;
+  }
+
+  .weather span {
+    font-size: 20px;
+  }
+}

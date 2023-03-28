@@ -1,0 +1,29 @@
+.arrow-text {
+  display: flex;
+  position: relative;
+  width: 100%;
+  height: calc(11% + 5px);
+  align-items: center;
+}
+
+.arrow-text span {
+  position: absolute;
+  font-size: 22px;
+  font-weight: 500;
+  margin-left: 15%;
+  left: 10%;
+  bottom: 0;
+}
+
+.arrow-text svg {
+  position: absolute;
+  margin-left: 20px;
+  width: 28px;
+  height: 28px;
+  left: 0;
+  bottom: 0;
+}
+
+.arrow-text svg:hover {
+  cursor: pointer;
+}

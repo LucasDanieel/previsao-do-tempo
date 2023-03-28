@@ -1,0 +1,46 @@
+.info {
+  display: flex;
+  width: 100%;
+  height: 45%;
+  flex-direction: column;
+}
+
+.img {
+  display: flex;
+  width: 100%;
+  height: 50%;
+  align-items: center;
+  justify-content: center;
+}
+
+.img img {
+  width: 270px;
+  height: 270px;
+}
+
+.temperatura {
+  display: flex;
+  width: 100%;
+  height: 50%;
+  align-items: center;
+  flex-direction: column;
+}
+
+.temperatura h3{
+  font-size: 70px;
+  font-weight: 400;
+  margin: 5px;
+}
+
+.wind{
+  display: flex;
+  align-items: center;
+}
+
+.wind span{
+  margin-left: 8px;
+}
+
+.bi-wind:hover{
+  cursor: auto;
+}
