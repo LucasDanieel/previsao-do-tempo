@@ -25,7 +25,6 @@ export const Forecast = ({ weather }) => {
     var today = formatToday(weather.hourly);
     setWeek(weekNames);
     setToday(today);
-    console.log(today);
   }, [weather]);
 
   return (
