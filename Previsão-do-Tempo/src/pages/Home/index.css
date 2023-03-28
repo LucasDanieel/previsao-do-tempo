@@ -89,4 +89,8 @@
   .weather span {
     font-size: 20px;
   }
+
+  .input-text input{
+    width: 75%;
+  }
 }
